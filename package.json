@@ -1,7 +1,7 @@
 {
-  "name": "willy-mello.github.io",
+  "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://willy-mello.github.io/public",
+  "homepage": "https://willy-mello.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "jquery": "^3.3.1",
