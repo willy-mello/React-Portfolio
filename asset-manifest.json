@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.07318036.chunk.css",
-  "main.js": "/static/js/main.a3d409fa.chunk.js",
-  "main.js.map": "/static/js/main.a3d409fa.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
-  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/js/2.4b95350b.chunk.js": "/static/js/2.4b95350b.chunk.js",
-  "static/js/2.4b95350b.chunk.js.map": "/static/js/2.4b95350b.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.71792c520b2dad925949c017e3da204d.js": "/precache-manifest.71792c520b2dad925949c017e3da204d.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.07318036.chunk.css.map": "/static/css/main.07318036.chunk.css.map"
+  "main.css": "/willy-mello.github.io/static/css/main.07318036.chunk.css",
+  "main.js": "/willy-mello.github.io/static/js/main.1944b6c5.chunk.js",
+  "main.js.map": "/willy-mello.github.io/static/js/main.1944b6c5.chunk.js.map",
+  "runtime~main.js": "/willy-mello.github.io/static/js/runtime~main.7573d7e8.js",
+  "runtime~main.js.map": "/willy-mello.github.io/static/js/runtime~main.7573d7e8.js.map",
+  "static/js/2.4b95350b.chunk.js": "/willy-mello.github.io/static/js/2.4b95350b.chunk.js",
+  "static/js/2.4b95350b.chunk.js.map": "/willy-mello.github.io/static/js/2.4b95350b.chunk.js.map",
+  "index.html": "/willy-mello.github.io/index.html",
+  "precache-manifest.49fe4756e31392895fffd071d6de759b.js": "/willy-mello.github.io/precache-manifest.49fe4756e31392895fffd071d6de759b.js",
+  "service-worker.js": "/willy-mello.github.io/service-worker.js",
+  "static/css/main.07318036.chunk.css.map": "/willy-mello.github.io/static/css/main.07318036.chunk.css.map"
 }
