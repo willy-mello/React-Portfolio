@@ -85,7 +85,7 @@
         "level": "60%"
       },
       {
-        "name": "Illustrator",
+        "name": "Redux",
         "level": "55%"
       },
       {
@@ -101,12 +101,16 @@
         "level": "80%"
       },
       {
-        "name": "VueJs",
-        "level": "50%"
+        "name": "Sequelize",
+        "level": "80%"
       },
       {
-        "name": "MongoDB",
+        "name": "PostgreSQL",
         "level": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "75%"
       }
     ]
   },
