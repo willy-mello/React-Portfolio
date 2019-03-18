@@ -9,6 +9,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+import pageData from './pageData'
 
 class App extends Component {
 
@@ -40,7 +41,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getResumeData();
+    this.setState({ resumeData: pageData });
   }
 
   render() {
