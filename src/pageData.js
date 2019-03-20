@@ -82,26 +82,26 @@ const pageData = {
     skills: [
       {
         name: "Git",
-        level: "75%"
+        level: "80%"
       },
       {
         name: "Redux",
-        level: "65%"
+        level: "70%"
       },
       {
         name: "ReactJs",
-        level: "75%"
+        level: "80%"
       },
       {
         name: "CSS",
-        level: "75%"
+        level: "90%"
       },
       {
         name: "HTML5",
         level: "80%"
       },
       {
-        name: "Sequelize",
+        name: "REST APIs",
         level: "80%"
       },
       {
@@ -117,11 +117,24 @@ const pageData = {
   portfolio: {
     projects: [
       {
-        title: "Zero-Patients",
-        category: "A clone of the popular board game pandemic",
-        image: "canadian-wanderlust.jpg",
-        url: "pandemic-clone@firebaseapp.com"
+        title: "Vibe 2.0",
+        category: "My React Spotify App (in development)",
+        image: "vibe2.png",
+        url: "https://github.com/willy-mello/spotify-data-vis"
+      },
+      {
+        "title": "Personal Website",
+        category: "You're HERE!",
+        image: "portfolio.png",
+        url: "https://willy-mello.github.io/react-portfolio/"
+      },
+      {
+        "title": "Pandemic Clone",
+        category: "Senior Fullstack Project (phone controller view)",
+        image: "pandemic.jpg",
+        url: "https://pandemic-clone.firebaseapp.com/board"
       }
+
     ]
   },
   testimonials: {
