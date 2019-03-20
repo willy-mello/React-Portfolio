@@ -1,6 +1,31 @@
 import React, { Component } from 'react';
+import * as emailjs from 'emailjs-com'
+import { DefaultForm } from './DefaultForm'
 
+emailjs.init('user_l5AOOMIuYYo5CHrqiNZXn')
 class Contact extends Component {
+   constructor() {
+      super()
+      this.state = {
+         message: '',
+         email: '',
+         subject: '',
+         name: ''
+      }
+      this.handleChange = this.handleChange.bind(this)
+      this.handleSubmit = this.handleSubmit.bind(this)
+   }
+   handleChange(evt) {
+      evt.preventDefault();
+      this.setState({
+         [evt.target.name]: evt.target.value
+      })
+   }
+   handleSubmit(evt) {
+      evt.preventDefault()
+      console.log('submit button clicked', this.state)
+
+   }
    render() {
 
       if (this.props.data) {
@@ -36,39 +61,13 @@ class Contact extends Component {
             <div className="row">
                <div className="eight columns">
 
-                  <form action="" method="post" id="contactForm" name="contactForm">
-                     <fieldset>
+                  <DefaultForm
+                     handleSubmit={this.handleSubmit}
+                     handleChange={this.handleChange}
+                     props={this.state}
+                  />
 
-                        <div>
-                           <label htmlFor="contactName">Name <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange} />
-                        </div>
-
-                        <div>
-                           <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />
-                        </div>
-
-                        <div>
-                           <label htmlFor="contactSubject">Subject</label>
-                           <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />
-                        </div>
-
-                        <div>
-                           <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                           <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                        </div>
-
-                        <div>
-                           <button className="submit">Submit</button>
-                           <span id="image-loader">
-                              <img alt="" src="images/loader.gif" />
-                           </span>
-                        </div>
-                     </fieldset>
-                  </form>
-
-                  <div id="message-warning"> Error boy</div>
+                  <div id="message-warning"> Error</div>
                   <div id="message-success">
                      <i className="fa fa-check"></i>Your message was sent, thank you!<br />
                   </div>
