@@ -82,15 +82,15 @@
     "skills": [
       {
         "name": "Git",
-        "level": "60%"
+        "level": "80%"
       },
       {
         "name": "Redux",
-        "level": "55%"
+        "level": "70%"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "80%"
       },
       {
         "name": "CSS",
@@ -101,7 +101,7 @@
         "level": "80%"
       },
       {
-        "name": "Sequelize",
+        "name": "REST API",
         "level": "80%"
       },
       {
@@ -110,41 +110,29 @@
       },
       {
         "name": "JavaScript",
-        "level": "75%"
+        "level": "80%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Vibe 2.0",
+        "category": "My React Spotify App (in development)",
+        "image": "vibe2.png",
+        "url": "https://github.com/willy-mello/spotify-data-vis"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Personal Website",
+        "category": "You're HERE!",
+        "image": "portfolio.png",
+        "url": "https://willy-mello.github.io/react-portfolio/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Pandemic Clone",
+        "category": "Senior Fullstack Project (phone controller view)",
+        "image": "pandemic.jpg",
+        "url": "https://pandemic-clone.firebaseapp.com/board"
       }
     ]
   },
@@ -155,7 +143,7 @@
         "user": "Kareem Abdul Jabbar"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "text": "That Willy Mello must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
         "user": "Steve Wozniak... impersonator"
       }
     ]
