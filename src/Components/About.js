@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class About extends Component {
    render() {
 
@@ -40,7 +41,7 @@ class About extends Component {
                      </div>
                      <div className="columns download">
                         <p>
-                           <a href='../../images/MelloResume.pdf' className="button" download><i className="fa fa-download"></i>Download Resume</a>
+                           <a href='https://docs.google.com/document/export?format=pdf&id=1_0aBejlrSG8TIv0iXZLgy0DuFSWY_azevwpQtgNd-qU' className="button" download><i className="fa fa-download"></i>Download Resume</a>
                         </p>
                      </div>
                   </div>
