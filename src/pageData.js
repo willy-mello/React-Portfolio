@@ -67,6 +67,12 @@ const pageData = {
     ],
     work: [
       {
+        company: "Jetsweat Fitness",
+        title: "Software Development Intern",
+        years: "April 2019-Present",
+        description: "Full Stack development on gen 2 of company web app"
+      },
+      {
         company: "Blair Academy",
         title: "Teacher, Coach and Housemaster ",
         years: "May 2015 - June 2018",
@@ -94,11 +100,11 @@ const pageData = {
       },
       {
         name: "CSS",
-        level: "90%"
+        level: "80%"
       },
       {
-        name: "HTML5",
-        level: "80%"
+        name: "React Native",
+        level: "75%"
       },
       {
         name: "REST APIs",
@@ -110,12 +116,18 @@ const pageData = {
       },
       {
         name: "JavaScript",
-        level: "85%"
+        level: "80%"
       }
     ]
   },
   portfolio: {
     projects: [
+      {
+        title: "BrewDog Bacchus",
+        category: "An app for the indecisive beer fan",
+        image: "bacchus.jpg",
+        url: "https://expo.io/@cwmello/expoBeer"
+      },
       {
         title: "Vibe 2.0",
         category: "My React Spotify App (in development)",
