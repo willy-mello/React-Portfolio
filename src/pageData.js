@@ -10,8 +10,8 @@ const pageData = {
     phone: "508-207-6386",
     address: {
       street: "",
-      city: "Weehawken",
-      state: "NJ",
+      city: "Mattapoisett",
+      state: "MA",
       zip: ""
     },
     website: "https://willy-mello.github.io/react-portfolio",
